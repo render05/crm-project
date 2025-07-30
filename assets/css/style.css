@@ -8136,3 +8136,14 @@ body.rtl .footer-widget {
   border: 1px solid #c2c2c2 !important;
   border-radius: 0px !important;
 }
+.error-body {
+  background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1500&q=80');  /* Replace with your actual image URL */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Open Sans';
+  height: 100%;
+  /* Optional: remove background color */
+  background-color: transparent !important; 
+}
