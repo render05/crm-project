@@ -20,6 +20,8 @@
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 
 </head>
 
@@ -27,24 +29,30 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">SCRM - PHP</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="registration.php">Signup</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.php">Login</a>
-          </li>
+  <li class="nav-item">
+    <a class="nav-link" href="registration.php">
+      <i class="fas fa-user-plus" style="margin-right: 5px;"></i> Signup
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="login.php">
+      <i class="fas fa-sign-in-alt" style="margin-right: 5px;"></i> Login
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="admin/">
+      <i class="fas fa-user-shield" style="margin-right: 5px;"></i> Admin Panel
+    </a>
+  </li>
+</ul>
 
-            <li class="nav-item">
-            <a class="nav-link" href="admin/">Admin Panel</a>
-          </li>
-        </ul>
       </div>
     </div>
   </nav>
@@ -53,7 +61,7 @@
     <div class="masthead-content">
       <div class="container">
         <h1 class="masthead-heading mb-0">Simple Customer Relationship Management System</h1>
-        <h2 class="masthead-subheading mb-0">Using PHP and MySQL Database</h2>
+        
         <a href="registration.php" class="btn btn-primary btn-xl rounded-pill mt-5">User Signup</a>
       </div>
     </div>
